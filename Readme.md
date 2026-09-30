@@ -84,7 +84,7 @@ Program dibuat dan diimplementasikan secara konsisten pada 3 bahasa pemrograman:
 ---
 
 
-## Penjelasan Alur Program (System Flow)
+Penjelasan Alur Program (System Flow)
 
 [ Start Program ]
         │
@@ -110,7 +110,7 @@ Program dibuat dan diimplementasikan secara konsisten pada 3 bahasa pemrograman:
 
 ---
 
-## Struktur Repositori
+Struktur Repositori
 TP3/
 ├── CPP/
 │   ├── Program/
