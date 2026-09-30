@@ -84,8 +84,8 @@ Program dibuat dan diimplementasikan secara konsisten pada 3 bahasa pemrograman:
 ---
 
 
-Penjelasan Alur Program (System Flow)
-
+## Penjelasan Alur Program (System Flow)
+```text
 [ Start Program ]
         │
         ▼
