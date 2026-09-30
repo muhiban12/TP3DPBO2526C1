@@ -122,8 +122,8 @@ TP3/
 │   │   ├── Film.cpp
 │   │   └── main.cpp
 │   └── Dokumentasi/
-│       ├── show_sebelum_cpp.png
-│       └── show_setelah_cpp.png
+│       ├── before_CPP.png
+│       └── after_CPP.png
 ├── Python/
 │   ├── Program/
 │   │   ├── Person.py
@@ -132,8 +132,8 @@ TP3/
 │   │   ├── Film.py
 │   │   └── main.py
 │   └── Dokumentasi/
-│       ├── show_sebelum_py.png
-│       └── show_setelah_py.png
+│       ├── before_Python.png
+│       └── after_Python.png
 ├── Java/
 │   ├── Program/
 │   │   ├── Person.java
@@ -142,8 +142,10 @@ TP3/
 │   │   ├── Film.java
 │   │   └── Main.java
 │   └── Dokumentasi/
-│       ├── show_sebelum_java.png
-│       └── show_setelah_java.png
+│       ├── before_Java.png
+│       └── after_Java.png
+├── Desain/
+│   └── DesainTP3.png
 └── Readme.md
 ```
 ---
