@@ -17,58 +17,6 @@ Program dibuat dan diimplementasikan secara konsisten pada 3 bahasa pemrograman:
 
 ## Desain Diagram Program (UML Diagram)
 
-classDiagram
-    class Person {
-        #string nama
-        #string nik
-        #int umur
-        +getNama() string
-        +setNama(string nama)
-        +getNik() string
-        +setNik(string nik)
-        +getUmur() int
-        +setUmur(int umur)
-    }
-
-    class Sutradara {
-        -int pengalamanTahun
-        -string lisensi
-        +getPengalamanTahun() int
-        +setPengalamanTahun(int pengalamanTahun)
-        +getLisensi() string
-        +setLisensi(string lisensi)
-    }
-
-    class Aktor {
-        -int jumlahFilm
-        -double rating
-        +getJumlahFilm() int
-        +setJumlahFilm(int jumlahFilm)
-        +getRating() double
-        +setRating(double rating)
-    }
-
-    class Film {
-        -string idFilm
-        -string judul
-        -int tahunRilis
-        -Sutradara sutradara
-        -List~Aktor~ listAktor
-        +getIdFilm() string
-        +getJudul() string
-        +getTahunRilis() int
-        +getSutradara() Sutradara
-        +getListAktor() List~Aktor~
-        +addAktor(Aktor aktor)
-        +printInfo()
-    }
-
-    Person <|-- Sutradara : Hierarchical Inheritance
-    Person <|-- Aktor : Hierarchical Inheritance
-    Film *-- Sutradara : Composition
-    Film *-- "1..*" Aktor : Composition (Array of Objects)
-
-
 *NOTE : Untuk gambar desainnya yang telah di sesuaikan ada di folder tambahan bernama TP3/Desain
 
 ---
