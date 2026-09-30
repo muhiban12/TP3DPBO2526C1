@@ -110,8 +110,9 @@ Program dibuat dan diimplementasikan secara konsisten pada 3 bahasa pemrograman:
 ```
 ---
 
-```text
+
 ## Struktur Repositori
+```text
 TP3/
 ├── CPP/
 │   ├── Program/
