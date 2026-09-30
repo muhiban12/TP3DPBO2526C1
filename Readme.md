@@ -17,7 +17,6 @@ Program dibuat dan diimplementasikan secara konsisten pada 3 bahasa pemrograman:
 
 ## Desain Diagram Program (UML Diagram)
 
-```mermaid
 classDiagram
     class Person {
         #string nama
