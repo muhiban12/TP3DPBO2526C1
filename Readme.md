@@ -1,7 +1,7 @@
 # Tugas Praktikum 3 (TP3) DPBO - Hierarchical Inheritance & Composition
 
 ## JANJI
-Saya Muhiban Fadlan Nursaid dengan NIM [Isi NIM Kamu] mengerjakan Tugas Praktikum 3 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
+Saya Muhiban Fadlan Nursaid dengan NIM 2400382 mengerjakan Tugas Praktikum 3 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ---
 
