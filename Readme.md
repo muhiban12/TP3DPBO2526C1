@@ -40,46 +40,46 @@ Program dibuat dan diimplementasikan secara konsisten pada 3 bahasa pemrograman:
 
 ## Penjelasan Atribut dan Methods Setiap Kelas
 1. Kelas Person (Base Class)
-    Atribut:
-    - nama (string/protected) : Nama lengkap individu.
-    - nik (string/protected) : Nomor Induk Kependudukan.
-    - umur (int/protected) : Umur individu dalam tahun.
+    - Atribut:
+        - nama (string/protected) : Nama lengkap individu.
+        - nik (string/protected) : Nomor Induk Kependudukan.
+        - umur (int/protected) : Umur individu dalam tahun.
 
-    Methods:
-    - Constructor (default & parameter)
-    - Getter dan Setter untuk nama, nik, dan umur.
+    - Methods:
+        - Constructor (default & parameter)
+        - Getter dan Setter untuk nama, nik, dan umur.
 
-2. Kelas Sutradara (Child Class dari Person)
-    Atribut:
-    - pengalamanTahun (int/private) : Total tahun pengalaman menyutradarai.
-    - lisensi (string/private) : Kode/nomor lisensi sutradara profesional.
+2. Kelas Sutradara (Child Class dari Person
+    - Atribut:
+        - pengalamanTahun (int/private) : Total tahun pengalaman menyutradarai.
+        - lisensi (string/private) : Kode/nomor lisensi sutradara profesional.
 
-    Methods:
-    - Constructor (memanggil super/Person constructor)
-    - Getter dan Setter untuk pengalamanTahun dan lisensi.
+    - Methods:
+        - Constructor (memanggil super/Person constructor)
+        - Getter dan Setter untuk pengalamanTahun dan lisensi.
 
-3. Kelas Aktor (Child Class dari Person)
-    Atribut:
-    - jumlahFilm (int/private) : Jumlah film yang pernah dibintangi.
-    - rating (double/private) : Nilai performa akting (skala 0.0 - 5.0).
+4. Kelas Aktor (Child Class dari Person)
+    - Atribut:
+        - jumlahFilm (int/private) : Jumlah film yang pernah dibintangi.
+        - rating (double/private) : Nilai performa akting (skala 0.0 - 5.0).
 
-    Methods:
-    - Constructor (memanggil super/Person constructor)
-    - Getter dan Setter untuk jumlahFilm dan rating.
+    - Methods:
+        - Constructor (memanggil super/Person constructor)
+        - Getter dan Setter untuk jumlahFilm dan rating.
 
-4. Kelas Film (Composition Class)
-    Atribut:
-    - idFilm (string/private) : Kode unik film.
-    - judul (string/private) : Judul karya film.
-    - tahunRilis (int/private) : Tahun perilisan film.
-    - sutradara (Sutradara/private) : Objek Sutradara penanggung jawab.
-    - listAktor (List/private) : Kumpulan objek Aktor yang membintangi film.
+5. Kelas Film (Composition Class)
+    - Atribut:
+        - idFilm (string/private) : Kode unik film.
+        - judul (string/private) : Judul karya film.
+        - tahunRilis (int/private) : Tahun perilisan film.
+        - sutradara (Sutradara/private) : Objek Sutradara penanggung jawab.
+        - listAktor (List/private) : Kumpulan objek Aktor yang membintangi film.
 
-    Methods:
-    - Constructor (menginisialisasi seluruh atribut dan objek komposisi)
-    - Getter untuk seluruh atribut.
-    - addAktor(Aktor) : Menambahkan objek Aktor baru ke dalam daftar listAktor.
-    - printInfo() : Menampilkan detail film, sutradara, dan seluruh aktor secara terstruktur.
+    - Methods:
+        - Constructor (menginisialisasi seluruh atribut dan objek komposisi)
+        - Getter untuk seluruh atribut.
+        - addAktor(Aktor) : Menambahkan objek Aktor baru ke dalam daftar listAktor.
+        - printInfo() : Menampilkan detail film, sutradara, dan seluruh aktor secara terstruktur.
 
 ---
 
