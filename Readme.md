@@ -107,10 +107,11 @@ Program dibuat dan diimplementasikan secara konsisten pada 3 bahasa pemrograman:
         │
         ▼
 [ End Program ]
-
+```
 ---
 
-Struktur Repositori
+```text
+## Struktur Repositori
 TP3/
 ├── CPP/
 │   ├── Program/
@@ -143,7 +144,7 @@ TP3/
 │       ├── show_sebelum_java.png
 │       └── show_setelah_java.png
 └── Readme.md
-
+```
 ---
 
 ## Dokumentasi Hasil Eksekusi
